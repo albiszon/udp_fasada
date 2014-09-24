@@ -12,8 +12,12 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c++11" />
 					<Add option="-g" />
 				</Compiler>
+				<Linker>
+					<Add library="pthread" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/udp_fasada" prefix_auto="1" extension_auto="1" />
@@ -32,6 +36,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="SimpleUDP.cpp" />
+		<Unit filename="SimpleUDP.h" />
+		<Unit filename="UDP.cpp" />
+		<Unit filename="UDP.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

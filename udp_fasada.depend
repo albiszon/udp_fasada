@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1411544646 source:/home/student/szkolenie/udp_fasada/main.cpp
+	<iostream>
+	<cstring>
+	<vector>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<unistd.h>
+	<pthread.h>
+	<ifaddrs.h>
+	<netinet/in.h>
+	"SimpleUDP.h"
+
+1411543743 /home/student/szkolenie/udp_fasada/SimpleUDP.h
+	"UDP.h"
+	<iostream>
+
+1411544042 /home/student/szkolenie/udp_fasada/UDP.h
+	<iostream>
+	<vector>
+	<arpa/inet.h>
+
+1411543979 source:/home/student/szkolenie/udp_fasada/SimpleUDP.cpp
+	"SimpleUDP.h"
+
+1411544054 source:/home/student/szkolenie/udp_fasada/UDP.cpp
+	"UDP.h"
+	<iostream>
+	<cstring>
+	<vector>
+	<sys/socket.h>
+	<unistd.h>
+	<pthread.h>
+	<ifaddrs.h>
+	<netinet/in.h>
+
